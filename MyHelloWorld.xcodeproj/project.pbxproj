@@ -24,6 +24,7 @@
 		FA083FF41675F0B000E4F11E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA083FCC1675F0B000E4F11E /* Foundation.framework */; };
 		FA083FFC1675F0B000E4F11E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA083FFA1675F0B000E4F11E /* InfoPlist.strings */; };
 		FA083FFF1675F0B000E4F11E /* MyHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA083FFE1675F0B000E4F11E /* MyHelloWorldTests.m */; };
+		FAEA2A01167A568D006B3D00 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA2A00167A568D006B3D00 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		FA083FFB1675F0B000E4F11E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA083FFD1675F0B000E4F11E /* MyHelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHelloWorldTests.h; sourceTree = "<group>"; };
 		FA083FFE1675F0B000E4F11E /* MyHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHelloWorldTests.m; sourceTree = "<group>"; };
+		FAEA29FF167A568D006B3D00 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		FAEA2A00167A568D006B3D00 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				FA083FE81675F0B000E4F11E /* ViewController.h */,
 				FA083FE91675F0B000E4F11E /* ViewController.m */,
 				FA083FD11675F0B000E4F11E /* Supporting Files */,
+				FAEA29FF167A568D006B3D00 /* test.h */,
+				FAEA2A00167A568D006B3D00 /* test.m */,
 			);
 			path = MyHelloWorld;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				FA083FD71675F0B000E4F11E /* main.m in Sources */,
 				FA083FDB1675F0B000E4F11E /* AppDelegate.m in Sources */,
 				FA083FEA1675F0B000E4F11E /* ViewController.m in Sources */,
+				FAEA2A01167A568D006B3D00 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				FA0840041675F0B000E4F11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0840051675F0B000E4F11E /* Build configuration list for PBXNativeTarget "MyHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				FA0840071675F0B000E4F11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
